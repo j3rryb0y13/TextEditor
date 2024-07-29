@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/Header';
-// import Footer from './components/Footer'; // Comment or remove this line
+import Footer from './components/Footer';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
@@ -19,7 +19,7 @@ const App = () => (
           <Route path="/resume" component={Resume} />
         </Switch>
       </main>
-      {/* <Footer /> // Comment or remove this line */}
+      <Footer />
     </div>
   </Router>
 );
